@@ -1,0 +1,28 @@
+# Local and generated datasets
+/data/
+**/data/
+
+# Trained models and experiment artifacts
+*.pkl
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.mat
+*.csv
+*.xlsx
+*.tsv
+*.tfevents
+*.fig
+*.png
+*.pdf
+
+# Notebook and Python runtime artifacts
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+catboost_info/
+**/catboost_info/
+model_result/
+**/model_result/
